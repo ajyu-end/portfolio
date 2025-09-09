@@ -1,1 +1,54 @@
+/* Сброс стилей */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 20px;
+}
+
+/* Контейнер блока */
+.block .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Текст */
+.text {
+  flex: 1;
+}
+
+.text h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.text p {
+  font-size: 16px;
+}
+
+/* Картинка */
+.image {
+  flex: 1;
+}
+
+.image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* 📱 Адаптивность */
+@media (max-width: 768px) {
+  .block .container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
