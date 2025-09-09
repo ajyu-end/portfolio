@@ -20,14 +20,14 @@ body {
 
 /* Шапка */
 .header {
-  background: #fff;
+  background:#282c34;
   border-bottom: 1px solid #eee;
 }
 
 .header__inner {
   display: flex;
-  align-items: center; /* выравнивание по вертикали */
-  justify-content: space-between; /* логотип слева, меню справа */
+  align-items: center; 
+  justify-content: space-between; 
   padding: 10px 20px;
 }
 
